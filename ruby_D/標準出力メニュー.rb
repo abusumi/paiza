@@ -16,3 +16,7 @@ n.each do |y|
     puts y
 end
 
+# 【改行あり出力】1,000 行の出力 Ruby編
+(1..1000).each do |n|
+  puts n
+end
