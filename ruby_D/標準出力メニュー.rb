@@ -20,3 +20,7 @@ end
 (1..1000).each do |n|
   puts n
 end
+
+# 2 つの数値を出力 Ruby編
+n = ["1", "1"]
+puts n.join(' ')
