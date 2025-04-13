@@ -29,3 +29,5 @@ puts n.join(' ')
 n = ["8","1","3"]
 puts n.join(" ")
 
+# 10 個の数値を出力 (末尾に半角スペース有) Ruby編
+puts (1..10).to_a.join(" ")
