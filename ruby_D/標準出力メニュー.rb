@@ -56,3 +56,10 @@ n.times do
     s = gets.chomp
     puts  s
 end
+
+# 【文字列の出力】入力された 10 個の文字列を出力 Ruby編
+n = gets.chomp
+t = n.split
+t.each do |a|
+    puts a
+end
