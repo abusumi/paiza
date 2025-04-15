@@ -37,3 +37,6 @@ puts (1..10).to_a.join(" ")
 
 # 【半角スペース区切りの出力】1,000 個の数値を出力 Ruby編
 puts (1..1000).to_a.join(" ")
+
+# 1 つの文字列を出力 Ruby編
+puts "paiza"
