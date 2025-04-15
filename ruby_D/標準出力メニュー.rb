@@ -49,3 +49,10 @@ s = gets
 puts s
 t = gets
 puts t
+
+# 入力された 10 個の文字列を出力 Ruby編
+n = gets.chomp.to_i
+n.times do
+    s = gets.chomp
+    puts  s
+end
