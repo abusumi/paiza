@@ -44,3 +44,8 @@ puts "paiza"
 # 2 つの文字列を出力 Ruby編
 puts "paiza learning"
 
+# 入力された 2 つの文字列を出力 Ruby編
+s = gets 
+puts s
+t = gets
+puts t
