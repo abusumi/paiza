@@ -40,3 +40,7 @@ puts (1..1000).to_a.join(" ")
 
 # 1 つの文字列を出力 Ruby編
 puts "paiza"
+
+# 2 つの文字列を出力 Ruby編
+puts "paiza learning"
+
