@@ -51,11 +51,11 @@ t = gets
 puts t
 
 # 入力された 10 個の文字列を出力 Ruby編
-n = gets.chomp.to_i
-n.times do
-    s = gets.chomp
-    puts  s
+arr = []
+10.times do
+  arr << gets.chomp
 end
+puts arr.join(" ")
 
 # 【文字列の出力】入力された 10 個の文字列を出力 Ruby編
 n = gets.chomp
