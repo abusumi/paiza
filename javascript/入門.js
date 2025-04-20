@@ -81,3 +81,13 @@ while (count < 10) {
     console.log("ハローpaizaラーニング");
     count = count + 1;
 }
+
+// 数値を0から15まで表示する
+
+process.stdin.resume();
+process.stdin.setEncoding('utf8');
+var count = 0;
+while (count < 16){
+    console.log(count);
+    count = count + 1;
+}
