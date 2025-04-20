@@ -70,3 +70,14 @@ process.stdout.write ("西暦" + seireki + "年は");
 // 昭和年を計算
 var showa = seireki - 1925;
 console.log("昭和" + showa + "年です");
+
+// 01:条件によるくり返し処理1 - while
+// 「ハローpaizaラーニング」と10回表示する
+
+process.stdin.resume();
+process.stdin.setEncoding('utf8');
+var count = 0;
+while (count < 10) {
+    console.log("ハローpaizaラーニング");
+    count = count + 1;
+}
