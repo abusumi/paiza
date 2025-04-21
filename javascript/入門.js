@@ -102,3 +102,14 @@ while (count <= 10){
     console.log(count);
     count = count + 2;
 }
+
+03:RPGの攻撃シーンを作る
+// 数値を10から1までカウントダウン表示する
+
+process.stdin.resume();
+process.stdin.setEncoding('utf8');
+var count = 10
+while (count > 0){
+    console.log(count);
+    count -= 1;
+}
