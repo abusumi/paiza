@@ -150,3 +150,11 @@ process.stdin.setEncoding('utf8');
 for (var count = 0; count <= 15; count++){
     console.log(count);
 }
+
+// 1月から12月まで表示する
+
+process.stdin.resume();
+process.stdin.setEncoding('utf8');
+for (var month = 1; month <= 12; month++){
+    console.log(month + "月");
+}
