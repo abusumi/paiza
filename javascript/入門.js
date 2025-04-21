@@ -133,3 +133,12 @@ while (count > 10){
     console.log(count - 1);
     count = count - 2;
 }
+
+// 04:条件によるくり返し処理3 - for
+// 「ハローpaizaラーニング」を10回表示する
+
+process.stdin.resume();
+process.stdin.setEncoding('utf8');
+for (var count = 0; count < 10; count ++){
+    console.log("ハローpaizaラーニング")
+}
