@@ -142,3 +142,11 @@ process.stdin.setEncoding('utf8');
 for (var count = 0; count < 10; count ++){
     console.log("ハローpaizaラーニング")
 }
+
+// 数値を0から15まで表示する
+
+process.stdin.resume();
+process.stdin.setEncoding('utf8');
+for (var count = 0; count <= 15; count++){
+    console.log(count)
+}
