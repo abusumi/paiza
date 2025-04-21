@@ -123,3 +123,13 @@ while (count >= 10){
     console.log(count);
     count -= 1;
 }
+
+// 20から10までの奇数を表示する
+
+process.stdin.resume();
+process.stdin.setEncoding('utf8');
+var count = 20;
+while (count > 10){
+    console.log(count - 1);
+    count = count - 2;
+}
