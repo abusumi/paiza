@@ -91,3 +91,14 @@ while (count < 16){
     console.log(count);
     count = count + 1;
 }
+
+// 02:条件によるくり返し処理2 - while
+// 1から10までの偶数を表示する
+
+process.stdin.resume();
+process.stdin.setEncoding('utf8');
+var count = 2;
+while (count <= 10){
+    console.log(count);
+    count = count + 2;
+}
