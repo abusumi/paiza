@@ -140,7 +140,7 @@ while (count > 10){
 process.stdin.resume();
 process.stdin.setEncoding('utf8');
 for (var count = 0; count < 10; count ++){
-    console.log("ハローpaizaラーニング")
+    console.log("ハローpaizaラーニング");
 }
 
 // 数値を0から15まで表示する
@@ -148,5 +148,5 @@ for (var count = 0; count < 10; count ++){
 process.stdin.resume();
 process.stdin.setEncoding('utf8');
 for (var count = 0; count <= 15; count++){
-    console.log(count)
+    console.log(count);
 }
