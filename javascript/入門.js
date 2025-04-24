@@ -212,3 +212,5 @@ for (var seireki = 1926; seireki <=1988; seireki++){
     let showa = seireki - 1925;
     console.log("西暦" + seireki +"年は昭和" + showa + "年です");
 }
+
+// 01:配列とは何かを学ぼう
