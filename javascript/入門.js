@@ -253,3 +253,12 @@ var jobs = [player_1, player_2, player_3];
 console.log (jobs);
 
 // ＃03:配列の要素を取り出してみよう
+// 配列の最初の要素を取り出してみよう
+
+process.stdin.resume();
+process.stdin.setEncoding('utf8');
+
+team = ["勇者", "戦士", "侍", "忍者", "魔法使い"];
+
+// ここで最初の要素を出力する
+console.log (team[0]);
