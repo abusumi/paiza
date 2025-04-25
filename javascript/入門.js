@@ -251,3 +251,5 @@ var jobs = [player_1, player_2, player_3];
 
 // ここで出力する
 console.log (jobs);
+
+// ＃03:配列の要素を取り出してみよう
