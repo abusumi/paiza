@@ -264,3 +264,15 @@ team = ["勇者", "戦士", "侍", "忍者", "魔法使い"];
 console.log (team[0]);
 
 // ＃04:配列を操作しよう
+// 配列に要素を追加してみよう
+
+process.stdin.resume();
+process.stdin.setEncoding('utf-8');
+
+var weapon = ["木の棒", "鉄の棒", "鉄の剣", "鋼の剣"];
+
+// ここで要素を追加する
+weapon.push("石斧");
+
+console.log(weapon);
+
