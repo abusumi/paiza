@@ -288,7 +288,7 @@ weapon[3] = "石斧";
 
 console.log(weapon);
 
-// #05:ループで配列の要素を処理しよう
+// #05:ループで配列の要素を処理しよう1
 // 配列の中身を1行ずつ表示してみよう
 
 process.stdin.resume();
@@ -300,3 +300,4 @@ var enemy = ["スライム", "モンスター", "ゾンビ", "ドラゴン", "�
 for (var value of enemy){
     console.log(value);
 }
+
