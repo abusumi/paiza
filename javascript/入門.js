@@ -289,3 +289,14 @@ weapon[3] = "石斧";
 console.log(weapon);
 
 // #05:ループで配列の要素を処理しよう
+// 配列の中身を1行ずつ表示してみよう
+
+process.stdin.resume();
+process.stdin.setEncoding('utf-8');
+
+var enemy = ["スライム", "モンスター", "ゾンビ", "ドラゴン", "魔王"];
+
+// for文で配列の要素を1つずつ出力する
+for (var value of enemy){
+    console.log(value);
+}
