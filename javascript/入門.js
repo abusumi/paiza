@@ -301,3 +301,4 @@ for (var value of enemy){
     console.log(value);
 }
 
+// ＃06:ループで配列の要素を処理しよう2
