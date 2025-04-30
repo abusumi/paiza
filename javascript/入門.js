@@ -315,7 +315,7 @@ cities.forEach(value => {
     console.log(value);
 })
 
-
+// ＃07:splitで文字列を分割しよう
 // 文字列をカンマで分割してみよう
 
 process.stdin.resume();
