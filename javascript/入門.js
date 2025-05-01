@@ -351,3 +351,4 @@ reader.on('close', () => {
     console.log(array);
 });
 
+// ＃08:複数行のデータを読み取ろう
