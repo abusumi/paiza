@@ -372,3 +372,5 @@ reader.on('close', () => {
         console.log(value + "が現れた");
     }
 });
+
+// ＃09:配列を使ったランダムくじ
