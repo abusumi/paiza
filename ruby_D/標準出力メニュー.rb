@@ -65,3 +65,10 @@ t.each do |a|
 end
 
 # 1 行または 2 行の出力
+n = gets.chomp.to_i
+if n == 1
+    puts 1
+elsif n == 2
+    puts 1
+    puts 2
+end
