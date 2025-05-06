@@ -63,3 +63,5 @@ t = n.split
 t.each do |a|
     puts a
 end
+
+# 1 行または 2 行の出力
