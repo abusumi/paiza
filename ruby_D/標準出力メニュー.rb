@@ -72,3 +72,5 @@ elsif n == 2
     puts 1
     puts 2
 end
+
+# 数行の出力
