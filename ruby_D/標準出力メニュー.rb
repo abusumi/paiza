@@ -80,3 +80,7 @@ n = gets.chomp.to_i
 end
 
 # 10 行以内の出力
+n = gets.chomp.to_i
+(1..n).each do |i|
+    puts i
+end
