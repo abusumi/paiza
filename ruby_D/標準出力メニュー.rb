@@ -86,3 +86,7 @@ n = gets.chomp.to_i
 end
 
 # 【n 行の出力】1,000 行以内の出力
+n = gets.chomp.to_i
+(1..n).each do |i|
+    puts i
+end
