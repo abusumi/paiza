@@ -90,3 +90,5 @@ n = gets.chomp.to_i
 (1..n).each do |i|
     puts i
 end
+
+# カンマ区切りで 2 つ出力
