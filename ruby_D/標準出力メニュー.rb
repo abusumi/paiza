@@ -92,3 +92,5 @@ n = gets.chomp.to_i
 end
 
 # カンマ区切りで 2 つ出力
+n, m = gets.split.map(&:to_i)
+puts("#{n},#{m}")
