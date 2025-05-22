@@ -96,3 +96,8 @@ n, m = gets.split.map(&:to_i)
 puts("#{n},#{m}")
 
 # バーティカルライン区切りで 3 つの文字列を出力
+s1 = gets.chomp
+s2 = gets.chomp
+s3 = gets.chomp
+
+puts("#{s1}|#{s2}|#{s3}")
