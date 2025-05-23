@@ -103,3 +103,6 @@ s3 = gets.chomp
 puts("#{s1}|#{s2}|#{s3}")
 
 # カンマ区切りで 10 個出力
+ary = gets.split.map(&:to_i)
+
+puts(ary.join(",") + ",")
