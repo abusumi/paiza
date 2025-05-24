@@ -108,3 +108,6 @@ ary = gets.split.map(&:to_i)
 puts(ary.join(",") + ",")
 
 # カンマ区切りで 10 個出力
+ary = gets.split.map(&:to_i)
+
+puts(ary.join(","))
