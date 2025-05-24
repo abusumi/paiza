@@ -106,3 +106,5 @@ puts("#{s1}|#{s2}|#{s3}")
 ary = gets.split.map(&:to_i)
 
 puts(ary.join(",") + ",")
+
+# カンマ区切りで 10 個出力
