@@ -112,3 +112,6 @@ ary = gets.split.map(&:to_i)
 
 puts(ary.join(","))
 # 半角スペースとバーティカルライン区切りで 10 個出力
+ary = 10.times.map{gets.to_i}
+
+puts(ary.join(" | "))
