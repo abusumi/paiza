@@ -115,3 +115,5 @@ puts(ary.join(","))
 ary = 10.times.map{gets.to_i}
 
 puts(ary.join(" | "))
+
+# 大きな数値を 3 けたごとにカンマ区切りで出力
