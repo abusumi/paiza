@@ -117,3 +117,21 @@ ary = 10.times.map{gets.to_i}
 puts(ary.join(" | "))
 
 # 大きな数値を 3 けたごとにカンマ区切りで出力
+n = gets.to_i
+# n を文字列に変換する
+s = n.to_s
+# s 末尾のインデックス
+e_i = s.length - 1
+# c_s を空文字で初期化
+c_s = ""
+# i=0 から e_i までカウントアップしながら繰り返す
+0.upto(e_i) do |i|
+  # s[i] を文字列 c_s に追加
+  c_s += s[i]
+  # 末尾以外かつ 3 の倍数のなら文字列 c_s にカンマ"," を追加
+  if i != e_i && (i + 1) % 3 == 0
+    c_s += ","
+  end
+end
+# 出力
+puts(c_s)
