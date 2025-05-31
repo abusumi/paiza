@@ -8,3 +8,6 @@ n = gets.chomp.to_i
 puts n-1
 
 # D214:身長差
+a = gets.chomp.to_i
+b = gets.chomp.to_i
+puts a-b
