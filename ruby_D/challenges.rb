@@ -6,3 +6,5 @@ puts s
 # D172:イヴの日付
 n = gets.chomp.to_i
 puts n-1
+
+# D214:身長差
