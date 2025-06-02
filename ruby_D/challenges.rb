@@ -11,3 +11,5 @@ puts n-1
 a = gets.chomp.to_i
 b = gets.chomp.to_i
 puts a-b
+
+# D166:何日後になるか
