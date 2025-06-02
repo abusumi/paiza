@@ -13,3 +13,5 @@ b = gets.chomp.to_i
 puts a-b
 
 # D166:何日後になるか
+n = gets.chomp.to_i
+puts n*7
