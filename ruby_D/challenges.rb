@@ -17,3 +17,6 @@ n = gets.chomp.to_i
 puts n*7
 
 # D189:何周年の確認
+x = gets.chomp.to_i
+y = gets.chomp.to_i
+puts y-x
