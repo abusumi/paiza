@@ -15,3 +15,5 @@ puts a-b
 # D166:何日後になるか
 n = gets.chomp.to_i
 puts n*7
+
+# D189:何周年の確認
