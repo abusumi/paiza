@@ -20,3 +20,5 @@ puts n*7
 x = gets.chomp.to_i
 y = gets.chomp.to_i
 puts y-x
+
+# D031:分から秒へ
