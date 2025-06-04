@@ -22,3 +22,5 @@ y = gets.chomp.to_i
 puts y-x
 
 # D031:分から秒へ
+n = gets.chomp.to_i
+puts n*60
