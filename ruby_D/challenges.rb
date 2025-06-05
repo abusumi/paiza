@@ -26,3 +26,8 @@ n = gets.chomp.to_i
 puts n*60
 
 # D343:N文字目まで
+L = gets.chomp.to_i
+S = gets.chomp
+N = gets.chomp.to_i
+T = S.slice(0, N)
+puts T
