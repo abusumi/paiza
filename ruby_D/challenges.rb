@@ -33,3 +33,5 @@ T = S.slice(0, N)
 puts T
 
 # D235:5人兄弟
+n = gets.chomp.to_i
+puts n*5
