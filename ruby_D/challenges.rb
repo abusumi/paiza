@@ -31,3 +31,5 @@ S = gets.chomp
 N = gets.chomp.to_i
 T = S.slice(0, N)
 puts T
+
+# D235:5人兄弟
