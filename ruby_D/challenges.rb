@@ -35,3 +35,5 @@ puts T
 # D235:5人兄弟
 n = gets.chomp.to_i
 puts n*5
+
+# D265:薬の処方
