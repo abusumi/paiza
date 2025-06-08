@@ -37,3 +37,6 @@ n = gets.chomp.to_i
 puts n*5
 
 # D265:薬の処方
+n = gets.chomp.to_i
+m = gets.chomp.to_i
+puts n*3*m
