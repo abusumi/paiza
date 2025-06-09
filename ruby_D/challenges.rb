@@ -40,3 +40,5 @@ puts n*5
 n = gets.chomp.to_i
 m = gets.chomp.to_i
 puts n*3*m
+
+# D242:取引の計算
