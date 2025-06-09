@@ -42,3 +42,8 @@ m = gets.chomp.to_i
 puts n*3*m
 
 # D242:取引の計算
+x = gets.chomp.to_i
+y = gets.chomp.to_i
+z = gets.chomp.to_i
+puts x+y-z
+
