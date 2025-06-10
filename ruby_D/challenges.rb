@@ -48,3 +48,6 @@ z = gets.chomp.to_i
 puts x+y-z
 
 # D156:密度の計算
+x = gets.chomp.to_i
+y = gets.chomp.to_i
+puts x*y
