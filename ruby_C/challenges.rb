@@ -11,3 +11,13 @@ i = h%10
 e = i/5
 j = i%5
 puts a+b+c+d+e+j
+
+# divmodメソッドを使うと、割り算と剰余を一度に取得できる
+x = gets.chomp.to_i
+a, x = x.divmod(500)
+b, x = x.divmod(100)
+c, x = x.divmod(50)
+d, x = x.divmod(10)
+e, x = x.divmod(5)
+j = x
+puts a + b + c + d + e + j
