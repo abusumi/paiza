@@ -53,3 +53,6 @@ y = gets.chomp.to_i
 puts x*y
 
 # D344:ボーナスの額
+n = gets.chomp.to_i
+m = gets.chomp.to_i
+puts n*m
