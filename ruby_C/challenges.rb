@@ -23,3 +23,22 @@ j = x
 puts a + b + c + d + e + j
 
 # C070:簡易カードゲーム
+N = gets.chomp.to_i
+
+N.times do
+  hand = gets.chomp.chars.map(&:to_i)
+  counts = hand.tally
+  
+  case counts.values.sort.reverse
+  when [4]
+    puts "Four Card"
+  when [3, 1]
+    puts "Three Card"
+  when [2, 2]
+    puts "Two Pair"
+  when [2, 1, 1]
+    puts "One Pair"
+  else
+    puts "No Pair"
+  end
+end
