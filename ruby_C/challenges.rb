@@ -21,3 +21,5 @@ d, x = x.divmod(10)
 e, x = x.divmod(5)
 j = x
 puts a + b + c + d + e + j
+
+# C070:簡易カードゲーム
