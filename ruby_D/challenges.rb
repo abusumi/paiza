@@ -58,3 +58,7 @@ m = gets.chomp.to_i
 puts n*m
 
 D256:移住
+x = gets.chomp.to_i
+y = gets.chomp.to_i
+puts x-100
+puts y+100
