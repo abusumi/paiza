@@ -64,3 +64,6 @@ puts x-100
 puts y+100
 
 # D199:お餅の個数
+n = gets.chomp.to_i
+m = gets.chomp.to_i
+puts n*m
