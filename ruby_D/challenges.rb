@@ -67,3 +67,5 @@ puts y+100
 n = gets.chomp.to_i
 m = gets.chomp.to_i
 puts n*m
+
+# D170:校庭マラソン
