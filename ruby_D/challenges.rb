@@ -78,3 +78,8 @@ n = gets.chomp.to_i
 puts n*150
 
 # D345:気温の計測
+a = gets.chomp.to_i
+b = gets.chomp.to_i
+c = gets.chomp.to_i
+d = [a, b, c].max
+puts d
