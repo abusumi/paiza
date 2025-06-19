@@ -76,3 +76,5 @@ puts x*y
 # D162:【推しプロコラボ問題】お米の重さ
 n = gets.chomp.to_i
 puts n*150
+
+# D345:気温の計測
