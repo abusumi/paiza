@@ -83,3 +83,5 @@ b = gets.chomp.to_i
 c = gets.chomp.to_i
 d = [a, b, c].max
 puts d
+
+# D112:工場の生産力
