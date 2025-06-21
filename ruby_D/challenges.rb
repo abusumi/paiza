@@ -90,3 +90,6 @@ y = gets.chomp.to_i
 puts x*y
 
 # D185:時給の計算
+n = gets.chomp.to_i
+m = gets.chomp.to_i
+puts n*m
